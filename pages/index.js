@@ -284,7 +284,7 @@ export default function Home() {
                 colorScheme="pink"
                 onClick={() => {
                   window.open(
-                    `https://api.whatsapp.com/send?phone=${myNumber}&text=Hai%20sayaangggg%0Akita%20ngedate%20yakkk%20tanggal%20${date}%0Ake%20${place}`,
+                    `https://api.whatsapp.com/send?phone=${myNumber}&text=Hai%20sayaangggg%0Akita%20ngedate%20yakkk%20tanggal%20${date}%0Ake%20${place}%20%F0%9F%A5%B0%F0%9F%A5%B0%F0%9F%A5%B0%F0%9F%A5%B0%F0%9F%A5%B0`,
                     "_blank"
                   );
                   setStatePage("thanks");
